@@ -12,6 +12,7 @@ alias -- -="cd -"
 alias p="cd ~/programming"
 alias g="git"
 alias h="history"
+alias glog="git log --decorate --graph --all --oneline"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
