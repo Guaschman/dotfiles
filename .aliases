@@ -53,8 +53,8 @@ alias week='date +%V'
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
 # update packages and npm
-alias update='sudo apt-get update && sudo apt-get upgrade; npm install npm -g; npm update -g;'
-
+alias update='sudo apt-get update && sudo apt-get upgrade'
+alias updatenode=' npm install npm -g; npm update -g;'
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ifconfig enp2s0 | grep 'inet addr:' | cut -d: -f2 | awk '{print $1}'"
