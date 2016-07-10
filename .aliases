@@ -13,6 +13,10 @@ alias p="cd ~/programming"
 alias g="git"
 alias h="history"
 alias glog="git log --decorate --graph --all --oneline"
+alias gap="git add -p"
+alias gai="git add -i"
+alias gp="git push"
+alias gcm="git commit -m"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
