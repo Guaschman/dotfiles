@@ -18,6 +18,8 @@ Plug 'racer-rust/vim-racer'
 Plug 'rust-lang/rust.vim'
 "visual git additions/deletions"
 Plug 'airblade/vim-gitgutter'
+"handy code plumbing commands"
+Plug 'eugen0329/vim-esearch'
 call plug#end()
 
 set hidden
