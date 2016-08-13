@@ -12,7 +12,16 @@ Plug 'ctrlpvim/ctrlp.vim'
 " <--- the tree directory on the left"
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
+"rust completion"
+Plug 'racer-rust/vim-racer'
+"rust highlighting"
+Plug 'rust-lang/rust.vim'
 call plug#end()
+
+set hidden
+let g:racer_cmd = "~/.cargo/bin/racer"
+let $RUST_SRC_PATH="~/programming/rust/rust/src/"
+
 " Put your non-Plugin stuff after this line
 
 " Use the Solarized Dark theme
