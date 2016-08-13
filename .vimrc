@@ -16,6 +16,8 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'racer-rust/vim-racer'
 "rust highlighting"
 Plug 'rust-lang/rust.vim'
+"visual git additions/deletions"
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 set hidden
